@@ -118,13 +118,9 @@ make -j$(nproc)
 ### 4MB Block Size (256 blocks = 1GB total)
 - **Convert to host**: ~8,000-8,800 MB/s
 - **Recreate from host**: ~9,200-9,900 MB/s
-- **Round-trip**: ~2,600-2,700 MB/s
-- **Memory efficiency**: 98% utilization
 
 ### Concurrent Performance (2 streams)
 - **Aggregate throughput**: ~8,000-9,000 MB/s
-- **Data integrity**: 100% verified
-- **Scalability**: Efficient parallel processing
 
 ## Dependencies
 
