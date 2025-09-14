@@ -1,6 +1,11 @@
 # RMM Memory Management Project
 
-This project demonstrates custom memory management using RAPIDS Memory Manager (RMM) with cuDF integration.
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![C++20](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](https://en.cppreference.com/w/cpp/20)
+[![CUDA](https://img.shields.io/badge/CUDA-12.0-green.svg)](https://developer.nvidia.com/cuda-toolkit)
+[![RAPIDS](https://img.shields.io/badge/RAPIDS-25.04-orange.svg)](https://rapids.ai/)
+
+This project demonstrates custom memory management using RAPIDS Memory Manager (RMM) with cuDF integration, featuring high-performance host memory spilling capabilities for GPU data processing workflows.
 
 ## Project Structure
 
