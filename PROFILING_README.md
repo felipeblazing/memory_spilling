@@ -3,14 +3,6 @@
 ## Overview
 The `profile.sh` script is a comprehensive tool for profiling the cuDF Table Converter benchmarks using NVIDIA Nsight Systems. It combines all profiling functionality into a single, easy-to-use script.
 
-## Features
-- **Unified Interface**: All profiling operations in one script
-- **Timestamped Directories**: Automatic organization of results
-- **Multiple Profiling Modes**: Simple and full profiling options
-- **Result Management**: View, migrate, cleanup, and list results
-- **Statistics Generation**: Automatic performance analysis
-- **Error Handling**: Comprehensive error checking and user feedback
-
 ## Usage
 
 ### Basic Commands
@@ -142,8 +134,4 @@ nsys-ui profiling_results/20250914_070859/benchmark_converter.nsys-rep
 ./profile.sh list
 ```
 
-## Performance Tips
-- Use simple profiling for regular monitoring
-- Use full profiling for detailed analysis
-- Clean up old results regularly to save disk space
-- Generate statistics after profiling for quick analysis
+
